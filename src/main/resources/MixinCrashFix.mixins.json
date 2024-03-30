@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.burchard36.mixincrashfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "MixinCrashFix.refmap.json",
+  "mixins": [
+    "MixinFixClass"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
